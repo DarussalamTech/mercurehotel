@@ -11,6 +11,7 @@ define("smtp_secure", "ssl");
 define("smtp_port", "465");
 define("allowed_host_1", "localhost");
 define("allowed_host_2", "54.244.125.63");
+define("not_smtp", "mercurevaluehotel.com");
 
 $user_reply_body = "Thank you for making reservation on us " .
         " possbile and reply you immediately <br/> Thanks and Regards <br/>" .
@@ -34,7 +35,7 @@ if (
     $mail = new PHPMailer();
 
 
-    if (!strstr($_SERVER['HTTP_HOST'], allowed_host_2)) {
+    if (!strstr($_SERVER['HTTP_HOST'], not_smtp)) {
         $mail->IsSMTP(); // telling the class to use SMTP
         $mail->Host = smtp_host; // SMTP server
         $mail->SMTPDebug = 2;                     // enables SMTP debug information (for testing)
@@ -46,10 +47,9 @@ if (
         $mail->Username = smtp_user; // SMTP account username
         $mail->Password = smtp_pass;        // SMTP account password
         $mail->SMTPSecure = smtp_secure;
-        echo "ali";
+       
     }
-echo $_SERVER['HTTP_HOST'];
-die;
+
 
     $mail->SetFrom($_POST['email'], $_POST['name']);
 
@@ -82,7 +82,7 @@ die;
         //sending customer reply
         $mail = new PHPMailer();
 
-        if (!strstr($_SERVER['HTTP_HOST'], allowed_host_2)) {
+        if (!strstr($_SERVER['HTTP_HOST'], not_smtp)) {
             $mail->IsSMTP(); // telling the class to use SMTP
             $mail->Host = smtp_host; // SMTP server
             $mail->SMTPDebug = 2;                     // enables SMTP debug information (for testing)
