@@ -20,7 +20,7 @@
                         <li><a href="rooms.html">Rooms</a><br /><span>beauty</span></li>
                         <li><a href="meetings.html">Meetings</a><br /><span>where ideas come</span></li>
                         <li><a href="dinning.html">Dining</a><br /><span>mercure taste</span></li>
-                        <li style="background:none"><a href="rewards.html">Rewards</a><br /><span>lorem ispum</span></li>
+                        <li style="background:none"><a href="rewards.html">Rewards</a><br /><span>loyalty bonus</span></li>
                     </ul>
                 </nav>
                 <div class="clr"></div>
