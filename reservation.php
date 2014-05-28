@@ -207,3 +207,15 @@
     })
 
 </script>
+<?php
+if (!empty($_SESSION['message'])) {
+
+    unset($_SESSION['message']);
+    ?>
+    <script>
+        $(function() {
+            $(document).scrollTop($(document).height());
+        })</script>    
+    <?php
+}
+?>

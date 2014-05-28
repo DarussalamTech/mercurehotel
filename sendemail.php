@@ -66,12 +66,8 @@ if (
     }
 
 
-     echo "<pre>";
-        print_r($mail);
-        print_r($_POST);
-        echo "</pre>";
     if (!$mail->Send()) {
-        echo "Mailer Error: to admin " . $mail->ErrorInfo;
+        //echo "Mailer Error: to admin " . $mail->ErrorInfo;
     } else {
    
         //sending customer reply
@@ -106,13 +102,11 @@ if (
 
 
         if (!$mail->Send()) {
-            echo "Mailer Error to user: " . $mail->ErrorInfo;
+            //echo "Mailer Error to user: " . $mail->ErrorInfo;
         } else {
-            echo "Message sent!";
+           // echo "Message sent!";
         }
-        echo "<pre>";
-        print_r($mail);
-        echo "</pre>";
+  
     }
 
     session_start();
@@ -120,7 +114,7 @@ if (
 
     //send message to user that his or her email has been recieved
 }
-die;
+
 header('Location: reservation.php');
 //sen
 ?>
