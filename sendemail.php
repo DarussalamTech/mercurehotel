@@ -22,8 +22,7 @@ $baseUrl = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
 
 
 
-echo $_SERVER['HTTP_HOST'];
-die;
+
 
 //email_sent
 
@@ -47,8 +46,10 @@ if (
         $mail->Username = smtp_user; // SMTP account username
         $mail->Password = smtp_pass;        // SMTP account password
         $mail->SMTPSecure = smtp_secure;
+        echo "ali";
     }
-
+echo $_SERVER['HTTP_HOST'];
+die;
 
     $mail->SetFrom($_POST['email'], $_POST['name']);
 
