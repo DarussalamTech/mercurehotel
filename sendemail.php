@@ -17,7 +17,7 @@ $user_reply_body = "Thank you for making reservation on us " .
         " possbile and reply you immediately <br/> Thanks and Regards <br/>" .
         " Mercure Value Hotel.";
 
-$add_addresses = array("itsgeniusstar@gmail.com","info@dtechsystems.co.uk", "reservations@mercurevaluehotel.com");
+$add_addresses = array("info@dtechsystems.co.uk", "reservations@mercurevaluehotel.com");
 
 $baseUrl = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
 
