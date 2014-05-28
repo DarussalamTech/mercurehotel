@@ -18,6 +18,11 @@ $user_reply_body = "Thank you for making reservation on us " .
 
 $add_addresses = array("info@dtechsystems.co.uk", "reservations@mercurevaluehotel.com");
 
+$baseUrl = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
+
+
+
+
 
 //email_sent
 
@@ -52,7 +57,9 @@ if (
 
     $mail->AltBody = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 
-    $mail->MsgHTML($_POST['message']);
+    require_once("_emailtemplate.php");
+
+    $mail->MsgHTML($html);
 
 
     if (is_array($add_addresses)) {

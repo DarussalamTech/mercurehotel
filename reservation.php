@@ -126,13 +126,8 @@
                         @session_start();
                         if (!empty($_SESSION['message'])) {
                             echo "<div class='flash-success'>" . $_SESSION['message'] . "</div>";
-                            unset($_SESSION['message']);
-                            ?>
-                            <script>
-                                $(function() {
-                                    $(document).scrollTop($(document).height());
-                                })</script>    
-                            <?php
+                           
+                           
                         }
                         ?>
                     </form>
