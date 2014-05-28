@@ -22,7 +22,8 @@ $baseUrl = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']);
 
 
 
-
+echo $_SERVER['HTTP_HOST'];
+die;
 
 //email_sent
 
