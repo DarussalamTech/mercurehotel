@@ -244,7 +244,7 @@ p.chk_avail{margin:0 0 0 175px;}
 footer{position:relative; width:100%;}
 .footer{height:320px; 
         background:#d2b999 url(../images/footer_bg_logo.png) no-repeat; }
-.footer .footer_box{width:25%;
+.footer .footer_box{width:33%;
                     height:220px; 
                     float:left; 
                     display:inline; 
@@ -274,6 +274,7 @@ footer{position:relative; width:100%;}
                       font-style:italic;
                       text-decoration:none;
                       color:#3f0f32;
+					  width:170px;
 }
 
 .footer .footer_box input{width:175px; 

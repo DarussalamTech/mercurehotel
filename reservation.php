@@ -87,14 +87,16 @@
 
                         <label for="room type">Room Type</label>
                         <select class="active_field" name="room_type">
-                            <option>Superior Rooms</option>
-                            <option>Junior Rooms</option>
-                            <option>Executive Suites</option>
+                            <option>Superior Room</option>
+                            <option>Junior Suite</option>
+                            <option>Executive Suite</option>
+                            <option>Family Suite</option>
+                            <option>Presidential Suite</option>
                         </select><br />
 
-                        <label for="check in date">check in date<span>*</span></label>
+                        <label for="check in date">Check-In Date<span>*</span></label>
                         <input type="text" name="check_in_date" id="check_in_date" required="" />
-                        <label for="check out date" class="lable_margin_left">check out date<span>*</span></label>
+                        <label for="check out date" class="lable_margin_left">Check-Out Date<span>*</span></label>
                         <input type="text" name="check_out_date"  id="check_out_date"required="" /><br />
 
                         <label for="number of adults">Number of Adults<span>*</span></label>
@@ -151,13 +153,8 @@
                     </ul>
                 </div>	
                 <div class="footer_box">
-                    <h3><span>LATEST </span>TWEETS</h3>
-                    <p>@Mercure There was a bug in the latest update which caused this, we're releasing a fix today<br /><span style="color:#8a6e31; border:none;">3 months ago</span>
-                    </p>
-                </div>
-                <div class="footer_box">
                     <h3><span>NEWS </span>LETTER</h3>
-                    <p>Quisque bibendum erat feugiat rhoncus tincidunt ipsum.</p>
+                    <p>Enter your e-mail address to subscribe for our monthly newsletters.</p>
                     <input type="text" name="text" />
                     <input type="button" name="button" value="Subscribe" />
                 </div>
