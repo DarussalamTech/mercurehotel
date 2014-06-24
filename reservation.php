@@ -138,53 +138,54 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="inner_child_div footer">
-                <div class="footer_box">
-                    <h3><span>QUICK </span>LINKS</h3>
-                    <ul>
-                        <li><a href="#">location</a></li>
-                        <li><a href="#">rooms</a></li>
-                        <li><a href="#">meetings</a></li>
-                        <li><a href="#">dining</a></li>
-                        <li><a href="#">reservations</a></li>
-                        <li><a href="#">rewards</a></li>
-                        <li><a href="#">contact us</a></li>
-                    </ul>
-                </div>	
-                <div class="footer_box">
-                    <h3><span>NEWS </span>LETTER</h3>
-                    <p>Enter your e-mail address to subscribe for our monthly newsletters.</p>
-                    <input type="text" name="text" />
-                    <input type="button" name="button" value="Subscribe" />
+         <footer>
+    	<div class="inner_child_div footer">
+        	<div class="footer_box">
+            	<h3><span>QUICK </span>LINKS</h3>
+                <ul>
+                	<li><a href="#">location</a></li>
+                    <li><a href="#">rooms</a></li>
+                    <li><a href="#">meetings</a></li>
+                    <li><a href="#">dining</a></li>
+                    <li><a href="#">reservations</a></li>
+                    <li><a href="#">rewards</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>	
+            
+            <div class="footer_box">
+            	<h3><span>NEWS </span>LETTER</h3>
+                <p>Enter your e-mail address to subscribe for our monthly newsletters.</p>
+                <input type="text" name="text" />
+                <input type="button" name="button" value="Subscribe" />
+            </div>
+            <div class="footer_box">
+            	<h3><span>SOCIAL </span>FORUM</h3>
+                <div class="socail_icon" style="margin-left:50px;">
+                	<img src="images/facebook.png" alt="facebook" />
                 </div>
-                <div class="footer_box">
-                    <h3><span>SOCIAL </span>FORUM</h3>
-                    <div class="socail_icon" style="margin-left:50px;">
-                        <img src="images/facebook.png" alt="facebook" />
-                    </div>
-                    <div class="socail_icon">
-                        <img src="images/twitter.png" alt="twitter" />
-                    </div>
-                    <div class="socail_icon">
-                        <img src="images/google.png" alt="google plus" />
-                    </div>
-                    <div class="clr"></div>
-
+                <div class="socail_icon">
+                	<img src="images/twitter.png" alt="twitter" />
+                </div>
+                <div class="socail_icon">
+                	<img src="images/google.png" alt="google plus" />
                 </div>
                 <div class="clr"></div>
-                <div class="bottom_footer">
-                    <div class="footer_text">
-                        <span>Mercure Hotels © 2014</span>
-                    </div>
-                    <div class="footer_text footer_rigth_text">
-                        <span>Powered and design by Dtech Systems.</span>
-                        <a href="http://dtechsystems.co.uk/" target="new"><img src="images/d-tech.png" alt="dtech" /></a>
-                    </div>
-                    <div class="clr"></div>
-                </div>
+               
             </div>
-        </footer>
+            <div class="clr"></div>
+             <div class="bottom_footer">
+             	<div class="footer_text">
+                	<span>Mercure Hotels © 2014</span>
+                </div>
+                <div class="footer_text footer_rigth_text">
+                	<span>Powered and design by Dtech Systems.</span>
+                   <a href="http://dtechsystems.co.uk/" target="new"><img src="images/d-tech.png" alt="dtech" /></a>
+                </div>
+                <div class="clr"></div>
+             </div>
+        </div>
+    </footer>
     </body>
 </html>
 
