@@ -142,7 +142,7 @@ nav ul li:hover a,nav ul li.active a{color:#FFF;}
                                     font-size:20px;
                                     font-weight:bold;
                                     color:#cba86b;
-                                    margin:35px 0 5px 6px;
+                                    margin:35px 0 5px 88px;
                                     text-align: left;
 }
 .check_in_date select, .check_out_date select{width:110px; 
@@ -645,4 +645,5 @@ div.flash-success
     font-style: italic;
     left: 1px;
     position: relative;
-    top: 1px;}
+    top: 1px;
+	text-decoration:none;}
