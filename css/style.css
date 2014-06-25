@@ -632,13 +632,17 @@ div.flash-success
 
 .footer_img_gallery {
     background: #642151;
-    font-family: candara;
-    font-size: 16px;
-    font-style: italic;
     height: 22px;
     margin: 20px 50px;
     padding: 5px 0;
     text-align: center;
     width: 180px;
-	color:#FFF;
+	
 }
+.footer_img_gallery a{color: #fff;
+    font-family: candara;
+    font-size: 16px;
+    font-style: italic;
+    left: 1px;
+    position: relative;
+    top: 1px;}
