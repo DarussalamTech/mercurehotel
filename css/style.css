@@ -629,3 +629,16 @@ div.flash-success
     font-size: 0;
     
 }
+
+.footer_img_gallery {
+    background: #642151;
+    font-family: candara;
+    font-size: 16px;
+    font-style: italic;
+    height: 22px;
+    margin: 20px 50px;
+    padding: 5px 0;
+    text-align: center;
+    width: 180px;
+	color:#FFF;
+}
