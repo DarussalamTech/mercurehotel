@@ -42,6 +42,7 @@ nav ul li{background: url("../images/nav_line.png") no-repeat scroll right cente
           height: 57px;
           position: relative;
           text-align: center;
+		  margin-left:1px;
 }
 nav ul li a{color: #5F0735;
             font-family: "candida BT";
@@ -52,7 +53,7 @@ nav ul li a{color: #5F0735;
             padding:5px 19px 20px;
             text-decoration: none;
 }
-nav ul li a:hover, nav ul li a.active{background:#5e275e; color:#FFF;}
+nav ul li:hover, nav ul li.active{background:#5e275e;}
 nav ul li span a{color:#b48a3e; 
                font-family:Arial, Helvetica, sans-serif; 
                font-size:12px; 
@@ -61,8 +62,7 @@ nav ul li span a{color:#b48a3e;
 			   font-weight:normal;
 			   padding:0;
 }
-nav ul li span a:hover .hover_menu{background:#666; color:#b48a3e !important;}
-
+nav ul li:hover a,nav ul li.active a{color:#FFF;}
 
 #container{width:100%; 
            position:relative; 
