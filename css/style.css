@@ -52,13 +52,16 @@ nav ul li a{color: #5F0735;
             padding:5px 19px 20px;
             text-decoration: none;
 }
-nav ul li:hover a, nav ul li a.active{background:#5e275e; color:#FFF;}
-nav ul li span{color:#b48a3e; 
+nav ul li a:hover, nav ul li a.active{background:#5e275e; color:#FFF;}
+nav ul li span a{color:#b48a3e; 
                font-family:Arial, Helvetica, sans-serif; 
                font-size:12px; 
                position:relative; 
-               top:-15px;
+               top:-28px;
+			   font-weight:normal;
+			   padding:0;
 }
+nav ul li span a:hover .hover_menu{background:#666; color:#b48a3e !important;}
 
 
 #container{width:100%; 
