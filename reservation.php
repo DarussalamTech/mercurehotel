@@ -5,6 +5,7 @@
         <title>reservation Page Mercure Hotel</title>
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link href="jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/lightbox.css">
     </head>
 
     <body>
@@ -249,6 +250,7 @@
 
 <script src="jquery-ui/js/jquery-1.10.2.js"></script>
 <script src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="js/lightbox.js"></script>
 <script>
     $(function() {
         $("#check_in_date").datepicker({
