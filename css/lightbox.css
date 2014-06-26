@@ -19,14 +19,14 @@ body:after {
 }
 
 .lightbox {
-  position: absolute;
+  position: fixed;
   left: 0;
   width: 100%;
   z-index: 10000;
   text-align: center;
   line-height: 0;
   font-weight: normal;
-  top:650px !important;
+  top:200px !important;
 }
 
 .lightbox .lb-image {
