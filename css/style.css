@@ -132,7 +132,7 @@ nav ul li:hover a,nav ul li.active a{color:#FFF;}
               float:right; 
               position:relative;
 }
-.check_in_date, .check_out_date{width:48%; 
+.check_in_date, .check_out_date{width:32%; 
                                 height:143px; 
                                 position:relative; 
                                 float:left; 
@@ -142,7 +142,7 @@ nav ul li:hover a,nav ul li.active a{color:#FFF;}
                                     font-size:20px;
                                     font-weight:bold;
                                     color:#cba86b;
-                                    margin:35px 0 5px 88px;
+                                    margin:35px 0 5px 35px;
                                     text-align: left;
 }
 .check_in_date select, .check_out_date select{width:110px; 
@@ -150,7 +150,7 @@ nav ul li:hover a,nav ul li.active a{color:#FFF;}
                                               text-align:center; 
                                               padding-top:3px;
 }
-p.chk_avail{margin:0 0 0 175px;}
+p.chk_avail{margin:60px 0 0 45px;}
 .chk_avail a{margin:20px -20px 0; 
              color: #CBA86B;
              font-family: candara;
@@ -481,7 +481,7 @@ p.p_style_3 span{color:#5f1f4d;}
 .rooms_inner_div .rooms_info_content{width:480px; min-height:100px; position:relative; float:right; display:inline;}
 .rooms_info_content > p{line-height:18px; color:#3a3a3a;}
 .rooms_info_content > p span{color:#9a7241;}
-.rooms_info_inner{width:480px; height:135px; background:#f1f1f1; position:relative; margin:10px 0;}
+.rooms_info_inner{width:480px; height:170px; background:#f1f1f1; position:relative; margin:10px 0;}
 .rooms_info_inner .rooms_info_box{width:100%; height:39px; position:relative; border-top:1px solid #c2a571;}
 .rooms_info_inner .rooms_info_box p{display:inline; position:relative; margin-left:10px; bottom:8px;}
 .rooms_info_inner .rooms_info_box p:first-child{margin-left:30px !important;}
@@ -491,7 +491,7 @@ p.p_style_3 span{color:#5f1f4d;}
 .rooms_info_box.third_box{height:54px;}
 .third_box p{margin-left:24px !important; bottom:14px !important;}
 p.p_style_4{margin-top:20px; color:#9a7241;}
-
+.room_info_three{height:210px;}
 /*********************************************************************************************************************
                                                                                         Location PAGE CSS START
 *********************************************************************************************************************/
@@ -529,7 +529,7 @@ form.res_enq_form{width:954px; min-height:300px; position:relative; margin:45px 
 .res_enq_form select{font-family: candara; font-size:14px; color:#383838; padding:4px;}
 .res_enq_form textarea{width:630px; height:140px; border:1px solid #bd9c5d; position:relative; vertical-align:top; margin-bottom:10px; background:#eaeaea;}
 p.p_style_5{width:675px; margin:0 auto; position:relative; font-family:candara; font-size:14px; color:#383838;padding-bottom:10px; line-height:20px;}
-input.res_button{width:148px; height:34px; position:relative; background:#C2A571; border:1px solid #D5BC8D; border-radius:5px; margin-left:172px; color:#FFF; font-size:18px; font-weight:bold; font-family:candara; margin-bottom:50px;}
+input.res_button{width:148px; height:34px; position:relative; background:#C2A571; border:1px solid #D5BC8D; border-radius:5px; margin-left:138px; color:#FFF; font-size:18px; font-weight:bold; font-family:candara; margin-bottom:50px;}
 input.res_button:hover{background:#C18F36; cursor:pointer;}
 .res_enq_form label span{color:#bd9c5d;}
 .active_field{background:#D5BC8D;}
@@ -647,3 +647,7 @@ div.flash-success
     position: relative;
     top: 1px;
 	text-decoration:none;}
+	
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all{background:#5e275e !important}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{color:#666 !important;}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{background:#5e275e !important; color:#FFF !important;}
